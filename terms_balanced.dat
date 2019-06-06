@@ -1,0 +1,11 @@
+Linked List|linked Lists| An ADT that stores a list of elements, but does not require sequential memory storage. Each node (see "Node") in the list holds an element, as well as pointers to the next/prior nodes in the list.
+Edge|Graphs|An object associated with a graph that connects two Vertices together (see "Vertex"). Can hold data representing the relationship between the two vertices it connects.
+Singly Linked List|Linked Lists|A linked list which holds a series of nodes (see "Node"). Each node holds an element, and a pointer to the next node in the list.
+Circular Linked List|Linked Lists|A linked list where the last node's next pointer is connected to the head.
+Vertex|Trees & Graphs|A point on a tree or graph that represents an object. Vertices are connected together via edges (see "Edge").
+Stack|Linked Lists, Stacks|A LIFO ("Last in, first out") ADT which stores a collection of elements, and where insertion, deletion, and retrieval only happens at the front of the list.
+Node|Linked Lists|A single element in a Linked List which holds information related to data, and connection between nodes in a Linked List.
+Queue|Linked Lists, Queues|A FIFO ("First in, first out") ADT where elements are inserted at the front of the list, and retrieved/removed from the end of the list.
+Hash Code|Hash Tables|The integer value used to store objects in a Hash Table. Determined by the object's data
+Doubly Linked List|Linked Lists|A linked list which holds a series of nodes (see "Node"). Each node holds an element, and two node pointers, one connecting to the prior node, and one to the next.
+Hash Table|Hash Tables|An ADT that allows O(1) addition, removal, and retrieval of its elements. Objects are stored in the Hash Table by their hash code value (see "Hash Code")
